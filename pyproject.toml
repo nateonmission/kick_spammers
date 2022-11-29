@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "anti-scammer"
+version = "0.1.0"
+description = "Punnish the scammers"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "anti_scammer"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+faker = "^15.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
